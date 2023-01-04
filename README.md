@@ -1,5 +1,5 @@
 # Image_processing
-## Perceptionb step
+## Perception step
 - Define Source,Destination points for perspective transformation
 - Apply Perspective Transform --> Warped 
 - Apply thresholding 

@@ -20,3 +20,13 @@
   - channel 1: rock sample 
   - channel 2: nav-terrian 
 - Clear low certainty nav-terian pixels perodically(channel 2)
+
+## Decision step
+can be divided into two parts<br>
+1- Dealing with normal states<br>
+2- Dealing with special states
+#### Let's imagine a state diagram with the folling states:
+    - Normal states like ['forward movement', 'stop'].
+    - Other special states like ['sample detected', 'stuck in a loop', 'stuck by an obstacle', etc...]
+    
+    
